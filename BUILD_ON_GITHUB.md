@@ -1,6 +1,6 @@
 # Build NekoRimba on GitHub
 
-1. Create repo `nekorimba` on GitHub, then locally: `./set_github_user.sh <your-username>`
+1. Repo: github.com/Zombie-1122/NekoRimba
 2. Create a keystore (once, keep it safe & backed up - losing it means users can't update):
    ```
    keytool -genkeypair -v -keystore release.jks -alias nekorimba_release \

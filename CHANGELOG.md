@@ -669,7 +669,7 @@ Kenaikan digit PATCH diterapkan sesuai kaidah Semantic Versioning 2.0.0 karena m
     - **Akar Masalah:** Menangani pembatasan kuota unauthenticated GitHub REST API (`HTTP 403 Forbidden` / 60 req/jam) yang sering habis pada jaringan seluler bersama (CGNAT) di Indonesia, timeout koneksi seluler/TV box, serta ketiadaan fallback jaringan.
     - **Arsitektur Fallback Bertingkat 4-Tier pada Backend (`backend/main.py` & Paritas Chaquopy):**
       - *Tier 1 (GitHub REST API):* Memeriksa API resmi GitHub dengan perpanjangan timeout menjadi 12.0 detik.
-      - *Tier 2 (GitHub Web Releases Redirect):* Jika Tier 1 mengembalikan HTTP 403 atau error jaringan, otomatis menghubungi halaman web rilis `https://github.com/YOUR_GITHUB_USER/nekorimba/releases/latest` (bebas batas kuota API), mengekstrak nomor versi dari header redirect `Location` (`/tag/v<VER>`), dan merekonstruksi URL unduhan 4 aset resmi secara deterministik.
+      - *Tier 2 (GitHub Web Releases Redirect):* Jika Tier 1 mengembalikan HTTP 403 atau error jaringan, otomatis menghubungi halaman web rilis `https://github.com/Zombie-1122/nekorimba/releases/latest` (bebas batas kuota API), mengekstrak nomor versi dari header redirect `Location` (`/tag/v<VER>`), dan merekonstruksi URL unduhan 4 aset resmi secara deterministik.
       - *Tier 3 (GitHub Raw Fastly CDN):* Jika Tier 1 & 2 terganggu oleh DNS poisoning, membaca `VERSION` dan `CHANGELOG.md` via Fastly CDN (`raw.githubusercontent.com`) dengan latensi instan (< 500ms).
       - *Tier 4 (Stale Cache Fallback):* Jika perangkat benar-benar offline, menyajikan data cache rilis sebelumnya alih-alih melempar error gagal.
     - **Fallback Native Java Langsung pada Android (`AppUpdateManager.java`):**

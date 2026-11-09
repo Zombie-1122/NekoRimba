@@ -1,218 +1,194 @@
 <div align="center">
+  <img src="assets/nekorimba_icon_512.png" width="112" height="112" alt="NekoRimba Logo">
+  <h1>NekoRimba</h1>
+  <p>Aplikasi pemutar anime mandiri multiplatform (Android Mobile, Android TV, Windows, Linux, Web) yang berfokus pada kemudahan penggunaan dan penyimpanan data lokal.</p>
 
-<img src="assets/nekorimba_icon_512.png" width="112" alt="NekoRimba Logo">
+  <p>
+    <a href="https://github.com/Zombie-1122/nekorimba/releases/latest"><img src="https://img.shields.io/github/v/release/Zombie-1122/nekorimba?style=flat-square&color=00dbeb&label=Rilis" alt="Release"></a>
+    <a href="https://somsubhra.github.io/github-release-stats/?username=Zombie-1122&repository=nekorimba" target="_blank" title="Lihat Statistik Unduhan Lengkap"><img src="https://img.shields.io/github/downloads/Zombie-1122/nekorimba/total?style=flat-square&color=3fb950&label=Statistik%20Unduhan" alt="Statistik Unduhan"></a>
+    <a href="https://github.com/Zombie-1122/nekorimba/stargazers"><img src="https://img.shields.io/github/stars/Zombie-1122/nekorimba?style=flat-square&logo=github&color=e3b341&label=Stars" alt="Stars"></a>
+    <a href="https://github.com/Zombie-1122/nekorimba/network/members"><img src="https://img.shields.io/github/forks/Zombie-1122/nekorimba?style=flat-square&logo=github&color=58a6ff&label=Forks" alt="Forks"></a>
+    <a href="https://hits.sh/github.com/Zombie-1122/nekorimba/"><img src="https://hits.sh/github.com/Zombie-1122/nekorimba.svg?style=flat-square&label=Kunjungan&color=00dbeb" alt="Views"></a>
+    <a href="LICENSE"><img src="https://img.shields.io/badge/Lisensi-GPL--3.0-blue.svg?style=flat-square" alt="License"></a>
+  </p>
 
-NekoRimba
-
-A multiplatform anime streaming application.
-
-Watch anime on Android Mobile, Android TV, Windows, Linux, and Web — with a simple interface and locally stored data.
-
-<p>
-<a href="https://github.com/YOUR_GITHUB_USER/nekorimba/releases/latest"><img src="https://img.shields.io/github/v/release/YOUR_GITHUB_USER/nekorimba?style=flat-square&color=00dbeb&label=Release"></a><a href="https://img.shields.io/github/downloads/YOUR_GITHUB_USER/nekorimba/total"><img src="https://img.shields.io/github/downloads/YOUR_GITHUB_USER/nekorimba/total?style=flat-square&color=3fb950&label=Downloads"></a><a href="https://github.com/YOUR_GITHUB_USER/nekorimba/stargazers"><img src="https://img.shields.io/github/stars/YOUR_GITHUB_USER/nekorimba?style=flat-square&color=e3b341&label=Stars"></a><a href="https://github.com/YOUR_GITHUB_USER/nekorimba/network/members"><img src="https://img.shields.io/github/forks/YOUR_GITHUB_USER/nekorimba?style=flat-square&color=58a6ff&label=Forks"></a><a href="LICENSE"><img src="https://img.shields.io/badge/License-GPL--3.0-blue.svg?style=flat-square"></a></p>
-
-<p>
-<a href="https://github.com/YOUR_GITHUB_USER/nekorimba/releases/latest/download/nekorimba-release-v2.12.5.apk"><img src="https://img.shields.io/badge/Android%20Mobile-Download-3DDC84?style=for-the-badge&logo=android&logoColor=white"></a><a href="https://github.com/YOUR_GITHUB_USER/nekorimba/releases/latest/download/nekorimba-tv-release-v2.12.5.apk"><img src="https://img.shields.io/badge/Android%20TV-Download-0081C9?style=for-the-badge&logo=android&logoColor=white"></a><a href="https://github.com/YOUR_GITHUB_USER/nekorimba/releases/latest/download/nekorimba-windows-x64-portable.zip"><img src="https://img.shields.io/badge/Windows-Download-0078D6?style=for-the-badge&logo=windows&logoColor=white"></a><a href="https://github.com/YOUR_GITHUB_USER/nekorimba/releases/latest/download/NekoRimba-x86_64.AppImage"><img src="https://img.shields.io/badge/Linux-Download-FCC624?style=for-the-badge&logo=linux&logoColor=black"></a></p>
+  <p>
+    <a href="https://github.com/Zombie-1122/nekorimba/releases/latest/download/nekorimba-release-v2.12.5.apk"><img src="https://img.shields.io/badge/Download-Android%20Mobile-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android Mobile APK"></a>
+    <a href="https://github.com/Zombie-1122/nekorimba/releases/latest/download/nekorimba-tv-release-v2.12.5.apk"><img src="https://img.shields.io/badge/Download-Android%20TV-0081C9?style=for-the-badge&logo=android&logoColor=white" alt="Android TV APK"></a>
+    <a href="https://github.com/Zombie-1122/nekorimba/releases/latest/download/nekorimba-windows-x64-portable.zip"><img src="https://img.shields.io/badge/Download-Windows%20x64-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Windows Portable"></a>
+    <a href="https://github.com/Zombie-1122/nekorimba/releases/latest/download/NekoRimba-x86_64.AppImage"><img src="https://img.shields.io/badge/Download-Linux%20AppImage-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux AppImage"></a>
+  </p>
 
 </div>
 
-✨ Features
-Multiple Anime Sources – Browse and stream anime from multiple catalogs.
-Stable Connectivity – Supports DNS-over-HTTPS (DoH) and TLS connection handling.
-AniSkip – Automatically detects openings and endings for quick skipping.
-Watch History – Automatically saves playback progress and resumes episodes.
-Anime Catalog – Browse by genre, season, completion status, and release schedule.
-Episode Tracking – View released and projected episode counts (Ep X/Y).
-TV-Friendly Interface – Android TV Leanback UI with full D-pad remote support.
-Cross-Platform – Available on Android, Android TV, Windows, Linux, and Web.
-Local Data Storage – Stores application data locally.
-🌐 Supported Platforms
-Platform	Package	Notes
-Android Mobile	APK	Phones and tablets
-Android TV	APK	Leanback UI and D-pad navigation
-Windows x64	Portable ZIP	No installation required
-Linux x86_64	AppImage	Standalone application
-Web	Self-hosted	Run on localhost, LAN, or VPS
-💬 Subtitle Support
+---
 
-Choose your preferred subtitle source directly from the video player.
+## Fitur Utama
 
-Option	Description
-Smart Fansub	Combines community and built-in subtitles with anime terminology adjustments.
-AI Fansub (BYOK)	AI-powered subtitle translation using your own API key.
-Built-in Subtitles	Original provider subtitles in WebVTT/ASS formats.
-Otakudesu	Direct Indonesian subtitle source.
-AI Fansub (BYOK)
+- **Agregasi Sumber & Penanganan Koneksi:** Menghubungkan beberapa katalog stream anime dengan dukungan DNS-over-HTTPS (DoH) dan penanganan koneksi TLS untuk membantu stabilitas pemutaran.
+- **Deteksi Opening & Ending (AniSkip):** Mendeteksi durasi intro/outro otomatis dengan opsi lewati satu klik pada remote TV (`OK` / `>>`) maupun keyboard desktop (`S`).
+- **Resume Watch Multiplatform:** Menyimpan posisi tontonan per episode secara otomatis dan menyajikan dialog konfirmasi untuk melanjutkan atau memutar dari awal.
+- **Rasio Episode Ongoing & Katalog:** Menampilkan jumlah episode rilis terhadap total proyeksi musim (`Ep X/Y`), penanda status tamat, filter genre, serta jadwal rilis mingguan.
+- **Navigasi TV (10-Foot UI):** Antarmuka Leanback Android TV yang dioptimalkan untuk remote kontrol D-pad tanpa memerlukan mouse pointer.
 
-Use your own API key to enable AI subtitle translation.
+---
 
-Enter a command in the search field:
+## Takarir (Subtitle)
 
-Command	Provider
-:gemini <api_key>	Google AI Studio
-:groq <api_key>	Groq Cloud
-:openai <api_key>	OpenAI
-:ollama <api_key>	Ollama (Local / Cloud)
+NekoRimba menyediakan opsi takarir yang dapat dipilih langsung dari pemutar:
 
-Additional commands:
+| Opsi Takarir | Pilihan di Pemutar | Keterangan |
+| :--- | :--- | :--- |
+| **Smart Fansub & Merge** | `Bahasa Indonesia` | Menggabungkan takarir komunitas (AnimeTosho & OpenSubtitles) dan takarir bawaan dengan penyesuaian istilah populer anime. |
+| **AI Fansub (BYOK)** | `Bahasa Indonesia (AI)` | Opsi terjemahan menggunakan model bahasa dengan kunci API pribadi pengguna (Gemini, Groq, OpenAI, Ollama). |
+| **Track Bawaan (Softsub)** | `English` / Bahasa Asli | Takarir bawaan resmi dari penyedia stream dalam format WebVTT/ASS. |
+| **Sumber Sub Indo** | `Otakudesu` | Pilihan beralih ke penyedia dengan takarir Bahasa Indonesia langsung. |
 
-:apikey – Check API key status.
-:apikey clear – Remove saved API key.
-:model <model_name> – Change the AI model.
-📥 Download & Installation
+### Konfigurasi AI Fansub (BYOK)
 
-Download the latest release for your platform:
+Untuk menggunakan model bahasa kustom pada pemutar, ketik perintah berikut pada kolom input pencarian:
 
-Platform	Download	Size	Requirements
-Android Mobile	APK	~35 MB	Android 7.0–16
-Android TV	APK	~35 MB	Android TV / Google TV
-Windows x64	Portable ZIP	~26 MB	Extract and run NekoRimba.exe
-Linux x86_64	AppImage	~58 MB	Make executable and run
-Android Installation Help
+| Perintah | Layanan / Provider |
+| :--- | :--- |
+| `:gemini <api_key>` | Google AI Studio (Gemini 2.0 Flash) |
+| `:groq <api_key>` | Groq Cloud (Llama 3.3) |
+| `:openai <api_key>` | OpenAI |
+| `:ollama <api_key>` | Ollama (Lokal / Cloud) |
 
-Some Android devices may block APK installation through security features such as Samsung Auto Blocker or Google Play Protect.
+Perintah manajemen: `:apikey` (cek status kunci), `:apikey clear` (hapus kunci), `:model <nama_model>` (ganti model).
 
-If you encounter installation problems, see the Android Installation Troubleshooting Guide.
+---
 
-For older versions, visit the GitHub Releases page.
+## Unduh dan Instalasi
 
-🖥️ Self-Hosted Web Version
+Pilih paket instalasi resmi sesuai perangkat Anda:
 
-Run NekoRimba on your own machine, HomeLab, or Linux VPS.
+| Platform Perangkat | Tombol Unduh Langsung | Format Berkas | Keterangan & Kompatibilitas |
+| :--- | :---: | :---: | :--- |
+| **Android Ponsel / Tablet** | [![Unduh Android APK](https://img.shields.io/badge/Download-Android%20APK-3DDC84?style=for-the-badge&logo=android&logoColor=white)](https://github.com/Zombie-1122/nekorimba/releases/latest/download/nekorimba-release-v2.12.5.apk) | `.apk` (~35 MB) | Signed Production APK (Android 7.0 s/d 16, Watch Portrait View & Adaptive Icons) |
+| **Android TV / Google TV** | [![Unduh Android TV APK](https://img.shields.io/badge/Download-Android%20TV%20APK-0081C9?style=for-the-badge&logo=android&logoColor=white)](https://github.com/Zombie-1122/nekorimba/releases/latest/download/nekorimba-tv-release-v2.12.5.apk) | `.apk` (~35 MB) | Signed Production APK khusus TV (Leanback 10-foot UI & Remote D-pad) |
+| **Windows (x64)** | [![Unduh Windows Portable](https://img.shields.io/badge/Download-Windows%20Portable-0078D6?style=for-the-badge&logo=windows&logoColor=white)](https://github.com/Zombie-1122/nekorimba/releases/latest/download/nekorimba-windows-x64-portable.zip) | `.zip` (~26 MB) | Standalone Portable (Ekstrak zip & jalankan `NekoRimba.exe`) |
+| **Linux (x86_64)** | [![Unduh Linux AppImage](https://img.shields.io/badge/Download-Linux%20AppImage-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://github.com/Zombie-1122/nekorimba/releases/latest/download/NekoRimba-x86_64.AppImage) | `.AppImage` (~58 MB) | Standalone AppImage (Berikan izin `chmod +x` lalu jalankan) |
 
-Requirements
-Python 3.11+
-Git
-Installation
-bash
-git clone https://github.com/YOUR_GITHUB_USER/nekorimba.git
-cd nekorimba
-./install.sh
+> [!TIP]
+> **Mengalami Kendala Pemasangan pada Android (Samsung One UI, Xiaomi/HyperOS, dll.)?**  
+> Jika ponsel Anda (khususnya Samsung One UI 6.0+) memblokir pemasangan dengan pesan *"Pemasangan diblokir (Auto Blocker)"* atau *"Diblokir oleh Play Protect"*, ikuti solusi langkah-demi-langkah pada **[Panduan Pemecahan Masalah Instalasi Android](docs/TROUBLESHOOTING_ANDROID.md)**.
 
+Seluruh arsip versi rilis stabil sebelumnya tersedia di [Halaman Rilis Resmi GitHub](https://github.com/Zombie-1122/nekorimba/releases). Untuk memantau grafik dan riwayat total unduhan secara transparan, kunjungi [Dasbor Statistik Unduhan NekoRimba](https://somsubhra.github.io/github-release-stats/?username=Zombie-1122&repository=nekorimba).
 
-The installation script automatically:
+### Menjalankan Versi Self-Hosted (Web Server / VPS / Localhost)
 
-Creates a Python virtual environment (venv/).
-Installs dependencies from requirements.txt.
-Initializes the local SQLite database.
-Start the Server
+Bagi pengguna yang ingin menjalankan NekoRimba sebagai layanan web mandiri (*self-hosted*) di server lokal, HomeLab, maupun VPS Linux:
 
-Foreground mode:
+1. **Prasyarat Sistem:**
+   - Python 3.11 atau lebih baru (`python3 --version`)
+   - Git (`git --version`)
 
-bash
-./run.sh
+2. **Kloning & Pemasangan Otomatis:**
+   ```bash
+   git clone https://github.com/Zombie-1122/nekorimba.git
+   cd nekorimba
+   ./install.sh
+   ```
+   *Skrip `./install.sh` akan menyiapkan virtual environment Python (`venv/`), memasang seluruh pustaka dependensi (`requirements.txt`), serta menginisialisasi basis data SQLite lokal.*
 
+3. **Menjalankan Layanan:**
+   - **Mode Interaktif (Foreground):**
+     ```bash
+     ./run.sh
+     ```
+     Buka peramban di `http://127.0.0.1:8767`.
+   - **Mode Latar Belakang (Background Daemon Service):**
+     ```bash
+     ./manage.sh start     # Menjalankan server di latar belakang
+     ./manage.sh status    # Memeriksa status proses dan PID
+     ./manage.sh logs      # Melihat log aktivitas pemutaran & server
+     ./manage.sh stop      # Menghentikan server
+     ```
 
-Open:
+4. **Akses Jaringan Lokal (LAN) atau Server VPS (Remote Access):**
+   Secara bawaan, backend mendengarkan pada host lokal `127.0.0.1`. Untuk membuka akses ke perangkat lain dalam satu jaringan Wi-Fi/LAN atau server publik, setel variabel `APP_HOST` ke `0.0.0.0`:
+   ```bash
+   APP_HOST=0.0.0.0 ./run.sh
+   ```
+   *Atau buat berkas konfigurasi `.env` pada direktori root:*
+   ```env
+   APP_HOST=0.0.0.0
+   APP_PORT=8767
+   ```
+   Akses antarmuka web dari perangkat apa pun di peramban via `http://<IP_SERVER_ANDA>:8767`.
 
-text
-http://127.0.0.1:8767
+---
 
+## Panduan Navigasi & Kontrol
 
-Background mode:
+### 1. Desktop & Web (Keyboard)
 
-bash
-./manage.sh start
-./manage.sh status
-./manage.sh logs
-./manage.sh stop
+#### Pemutar Video (Player)
+| Tombol | Fungsi |
+| :--- | :--- |
+| `Spasi` | Putar / Jeda pemutaran video |
+| `F` | Masuk / Keluar mode layar penuh (*Fullscreen*) |
+| `←` / `→` | Mundur / Maju 5 detik (*Seek*) |
+| `[` / `]` | Perlambat / Percepat kecepatan putar (`0.5x` s/d `2.0x`) |
+| `S` | Lewati opening/ending (jika terdeteksi) atau beralih sumber stream |
+| `N` / `P` | Pindah langsung ke episode berikutnya / sebelumnya |
+| `M` | Matikan / Nyalakan audio (*Mute toggle*) |
+| `Esc` | Keluar mode layar penuh atau menutup pemutar video |
 
-Command	Description
-start	Start the server
-status	Check server status and PID
-logs	View server and playback logs
-stop	Stop the server
-LAN & Remote Access
+#### Antarmuka Beranda & Dialog
+| Tombol | Fungsi |
+| :--- | :--- |
+| `/` | Fokus ke kolom input pencarian atau terminal perintah |
+| `Tab` | Berpindah antar tab beranda (*Cari*, *Musim*, *Jadwal*, *Lanjutan*, *Katalog*) |
+| `↑` / `↓` | Navigasi riwayat perintah terminal atau pemilihan kartu anime |
+| `[` / `]` | Berpindah halaman katalog atau berganti hari pada tab jadwal |
+| `Enter` | Menjalankan pencarian atau mengonfirmasi pilihan dialog aktif |
+| `Esc` | Membatalkan dialog riwayat tontonan atau menutup modal informasi |
 
-By default, the server listens on 127.0.0.1 (localhost).
+---
 
-To allow access from other devices on your network:
+### 2. Android TV (Remote D-Pad 10-Foot UI)
 
-bash
-APP_HOST=0.0.0.0 ./run.sh
+Antarmuka Android TV dirancang khusus untuk pengoperasian penuh via remote kontrol D-pad:
 
+| Tombol Remote | Fungsi di Layar Utama & Katalog | Fungsi Saat Pemutaran Video (Player) |
+| :--- | :--- | :--- |
+| `D-Pad Kiri / Kanan` | Berpindah antar kartu anime atau chip hari | Mundur / Maju 5 detik (*Seek*) |
+| `D-Pad Atas` | Berpindah ke baris tab atau kolom pencarian (tekan `OK` untuk memunculkan keyboard virtual) | Menampilkan panel kontrol atas (Resolusi, Subtitle, Kecepatan, Rasio, Info) |
+| `D-Pad Bawah` | Menjelajahi baris konten anime di bawahnya | Memfokuskan tombol *Lewati Opening/Ending* jika aktif, atau menyembunyikan kontrol |
+| `D-Pad Tengah / OK` | Membuka detail anime atau konfirmasi pilihan | Putar / Jeda; mengeksekusi *Lewati Opening/Ending* saat tombol skip terfokus; konfirmasi *Lanjutkan* pada dialog riwayat |
+| `>>` *(Fast-Forward)* | – | Melompati opening/ending secara langsung tanpa memindahkan fokus remote |
+| `<<` *(Rewind)* | – | Mundur 10 detik |
+| `Next / Previous` | – | Pindah ke episode berikutnya / sebelumnya |
+| `Menu / Info / Settings` | Membuka panel drawer navigasi samping | Membuka dialog pengaturan pemutar (resolusi, subtitle, kecepatan, rasio aspek, auto-skip) |
+| `Kembali / Back` | Kembali ke menu sebelumnya atau tutup dialog | Menyembunyikan bar kontrol pemutar / kembali ke detail anime |
 
-Alternatively, create a .env file in the project directory:
+---
 
-env
-APP_HOST=0.0.0.0
-APP_PORT=8767
+### 3. Android Ponsel & Tablet (Gesture Layar Sentuh)
 
+| Gesture / Sentuhan | Area Layar | Fungsi |
+| :--- | :--- | :--- |
+| Geser Vertikal Sisi Kanan | Layar kanan pemutar | Mengatur volume suara secara halus (*continuous*) |
+| Geser Vertikal Sisi Kiri | Layar kiri pemutar | Mengatur tingkat kecerahan layar (*brightness*) |
+| Ketuk Dua Kali (*Double Tap*) | Layar kiri / kanan | Mundur / Maju 10 detik |
+| Tombol Rasio Aspek | Bar kontrol atas | Beralih mode tampilan rasio (*Fit, Fill, Zoom, Stretch*) |
 
-Access NekoRimba using:
+---
 
-text
-http://<YOUR_SERVER_IP>:8767
+## Catatan Layanan & Lisensi
 
+- Memerlukan koneksi internet aktif untuk mengambil metadata anime dan memutar stream video.
+- Aplikasi bertindak sebagai agregator konten publik dan tidak menyimpan berkas video pada server tersendiri.
+- Catatan riwayat perubahan versi terdokumentasi di [CHANGELOG.md](CHANGELOG.md) mengikuti kaidah [Semantic Versioning 2.0.0](https://semver.org/lang/id/).
+- Lisensi di bawah [GPL-3.0](LICENSE).
 
-Security note: Only expose the server to trusted networks unless you have configured appropriate authentication, firewall rules, and secure remote access.
+---
 
-🎮 Controls & Navigation
-Desktop & Web
+## Atribusi & Lisensi
 
-Video Player
-
-Key	Action
-Space	Play / Pause
-F	Toggle fullscreen
-← / →	Seek backward / forward 5 seconds
-[ / ]	Decrease / increase playback speed
-S	Skip opening/ending or switch stream source
-N / P	Next / Previous episode
-M	Toggle mute
-Esc	Exit fullscreen / close player
-
-Home Interface
-
-Key	Action
-/	Focus search or command input
-Tab	Switch between home tabs
-↑ / ↓	Navigate history or anime cards
-[ / ]	Change catalog page or schedule day
-Enter	Search / Confirm
-Esc	Close dialog or modal
-Android TV
-
-Designed for navigation using a D-pad remote.
-
-Remote Button	Action
-← / →	Navigate cards / Seek 5 seconds
-↑	Navigate tabs or player controls
-↓	Browse content / Focus skip button
-OK	Select / Play / Pause / Confirm
->>	Skip opening/ending
-<<	Rewind 10 seconds
-Next / Previous	Change episode
-Menu / Info / Settings	Open navigation or player settings
-Back	Return / Close controls
-Android Mobile & Tablet
-Gesture	Action
-Swipe vertically on the right	Adjust volume
-Swipe vertically on the left	Adjust brightness
-Double tap left / right	Seek backward / forward 10 seconds
-Aspect Ratio button	Switch Fit, Fill, Zoom, or Stretch
-ℹ️ Important Notes
-An active internet connection is required for anime metadata and video streaming.
-NekoRimba aggregates publicly available content and does not host video files on its own servers.
-Playback availability depends on the selected streaming source.
-Application data is stored locally.
-📜 License & Credits
-
-NekoRimba is a fork of Tatap by asfaraguest.
-
-Licensed under GNU General Public License v3.0 (GPL-3.0).
-
-Major modifications include:
-
-Application name and branding.
-Package ID.
-Application icon.
-Update URL.
-Additional features and improvements.
-
-Original source code copyrights remain with their respective authors.
-
-See LICENSE for the full license and CHANGELOG.md for version history.
-
-<p align="center">
-<b>Made with ❤️ for anime fans.</b></p>
+NekoRimba adalah *fork* dari proyek open-source **Tatap** (https://github.com/asfaraguest/tatap)
+oleh asfaraguest, dilisensikan di bawah **GNU GPL v3.0**. Proyek ini juga berlisensi GPL-3.0
+(lihat berkas `LICENSE`). Perubahan utama: nama aplikasi, package ID, ikon, dan alamat update.
+Hak cipta kode asli tetap milik penulis aslinya.
