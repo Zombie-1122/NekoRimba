@@ -1,0 +1,24 @@
+venv/
+__pycache__/
+*.pyc
+*.db*
+cache/*
+!.gitkeep
+.env
+server.pid
+dist/
+.build_cache/
+
+# Internal/local-only:
+# - plan.md: working doc pribadi
+plan.md
+.gradle/
+build/
+**/build/
+.cxx/
+*.jks
+*.keystore
+signing.properties
+local.properties
+*.properties
+!gradle/wrapper/gradle-wrapper.properties
